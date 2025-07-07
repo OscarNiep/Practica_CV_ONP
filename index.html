@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Oscar Nieto Pérez</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .section-title {
+            border-bottom: 2px solid #0d6efd;
+            padding-bottom: 10px;
+        }
+        .proyecto-img {
+            width: 360px;
+            height: 640px;
+            object-fit: cover;
+        }
+        .certificado-img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="bi bi-person-badge me-2"></i>Oscar Nieto Pérez</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio"><i class="bi bi-house-door me-1"></i>Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia"><i class="bi bi-briefcase me-1"></i>Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#educacion"><i class="bi bi-mortarboard me-1"></i>Educación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certificaciones"><i class="bi bi-award me-1"></i>Certificaciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos"><i class="bi bi-images me-1"></i>Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto"><i class="bi bi-envelope me-1"></i>Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="py-5 bg-light text-center mt-5">
+        <div class="container py-4">
+            <img src="mi-foto.jpg" alt="Oscar Nieto Pérez" class="profile-img rounded-circle mb-4">
+            <h1 class="display-4">Oscar Nieto Pérez</h1>
+            <p class="lead"><i class="bi bi-building me-2"></i>Ing. Gestión de Proyectos | Especialista en Transformación Digital</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="mailto:oscar@prueba.com" class="btn btn-outline-primary">
+                    <i class="bi bi-envelope"></i> Email
+                </a>
+                <a href="tel:4432026771" class="btn btn-outline-primary">
+                    <i class="bi bi-phone"></i> 443-202-xxxx
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia Profesional -->
+    <section id="experiencia" class="py-5">
+        <div class="container">
+            <h2 class="section-title"><i class="bi bi-briefcase me-2"></i>Experiencia Profesional</h2>
+            <div class="row">
+                <!-- Experiencia 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-laptop me-2"></i>Encargado de Departamento</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><i class="bi bi-building me-1"></i>Comisión Estatal del Agua | 2022 - Actual</h6>
+                            <p class="card-text">Implementación de recursos digitales para simplificar trámites y servicios públicos.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más experiencias... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Educación -->
+    <section id="educacion" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title"><i class="bi bi-mortarboard me-2"></i>Formación Académica</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-book me-2"></i>Ing. Gestión de Proyectos</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><i class="bi bi-building me-1"></i>UVEG | Concluida</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más educación... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificaciones -->
+    <section id="certificaciones" class="py-5">
+        <div class="container">
+            <h2 class="section-title"><i class="bi bi-award me-2"></i>Certificaciones</h2>
+            <div class="row">
+                <!-- Certificación 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-google me-2"></i>Google Cloud Computing Foundations</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><i class="bi bi-calendar me-1"></i>Google Cloud Academy | Octubre 2022</h6>
+                            <p class="card-text">Fundamentos de computación en la nube y arquitectura de GCP.</p>
+                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#certificadoGoogle">
+                                <i class="bi bi-eye me-1"></i>Ver credencial
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Certificación 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-cloud me-2"></i>Alibaba Digital Transformation</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><i class="bi bi-calendar me-1"></i>GDT Program | [Fecha]</h6>
+                            <p class="card-text">Módulo de transformación digital con Alibaba Cloud.</p>
+                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#certificadoAlibaba">
+                                <i class="bi bi-eye me-1"></i>Ver credencial
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Sección de Proyectos -->
+<section id="proyectos" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5 section-title"><i class="bi bi-images me-2"></i>Proyectos Destacados</h2>
+        
+        <!-- Carrusel -->
+        <div id="carouselProyectos" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselProyectos" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselProyectos" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselProyectos" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carouselProyectos" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carouselProyectos" data-bs-slide-to="4"></button>
+            </div>
+            
+            <!-- Slides - Proyectos 1 al 5 -->
+            <div class="carousel-inner rounded-3 shadow">
+                <!-- Proyecto 1 -->
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center bg-secondary" style="height: 500px;">
+                        <img src="proyecto1.jpg" class="h-100" style="width: 360px; object-fit: contain;" alt="Cálculo de Tarifas Cuota Fija">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                        <h5><i class="bi bi-calculator me-2"></i>Cálculo de Tarifas Cuota Fija</h5>
+                        <p class="mb-2">Soporte para organismos operadores</p>
+                        <a href="#" class="btn btn-primary btn-sm"><i class="bi bi-arrow-right me-1"></i>Ver detalles</a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 2 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center bg-secondary" style="height: 500px;">
+                        <img src="proyecto2.jpg" class="h-100" style="width: 360px; object-fit: contain;" alt="Seguimiento Atención Ciudadana">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                        <h5><i class="bi bi-people me-2"></i>Seguimiento Atención Ciudadana</h5>
+                        <p class="mb-2">Gestión de solicitudes ciudadanas</p>
+                        <a href="#" class="btn btn-primary btn-sm"><i class="bi bi-arrow-right me-1"></i>Ver detalles</a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 3 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center bg-secondary" style="height: 500px;">
+                        <img src="proyecto3.jpg" class="h-100" style="width: 360px; object-fit: contain;" alt="Folios Coordinación">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                        <h5><i class="bi bi-file-earmark-text me-2"></i>Folios Coordinación</h5>
+                        <p class="mb-2">Generador de folios automatizado</p>
+                        <a href="#" class="btn btn-primary btn-sm"><i class="bi bi-arrow-right me-1"></i>Ver detalles</a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 4 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center bg-secondary" style="height: 500px;">
+                        <img src="proyecto4.jpg" class="h-100" style="width: 360px; object-fit: contain;" alt="Correspondencia Planeación">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                        <h5><i class="bi bi-envelope-paper me-2"></i>Correspondencia Planeación</h5>
+                        <p class="mb-2">Gestión documental institucional</p>
+                        <a href="#" class="btn btn-primary btn-sm"><i class="bi bi-arrow-right me-1"></i>Ver detalles</a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 5 -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center bg-secondary" style="height: 500px;">
+                        <img src="proyecto5.jpg" class="h-100" style="width: 360px; object-fit: contain;" alt="Directorio OOAPAS">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+                        <h5><i class="bi bi-telephone me-2"></i>Directorio OOAPAS Michoacán</h5>
+                        <p class="mb-2">Base de datos de contactos institucionales</p>
+                        <a href="#" class="btn btn-primary btn-sm"><i class="bi bi-arrow-right me-1"></i>Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyectos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProyectos" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+</section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h2 class="section-title"><i class="bi bi-envelope me-2"></i>Contacto</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-geo-alt me-2"></i>Dirección</h5>
+                            <p class="card-text">
+                                Blvd Sanson Flores #120, Bosque Camelinas<br>
+                                CP: 58290, Morelia Michoacán, México
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="bi bi-send me-2"></i>Envíame un mensaje</h5>
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label"><i class="bi bi-person me-1"></i>Nombre</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label"><i class="bi bi-envelope me-1"></i>Email</label>
+                                    <input type="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label"><i class="bi bi-chat-left-text me-1"></i>Mensaje</label>
+                                    <textarea class="form-control" rows="3" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary"><i class="bi bi-send me-1"></i>Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modales para Certificados -->
+    <!-- Modal Google -->
+    <div class="modal fade" id="certificadoGoogle" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Google Cloud Computing Foundations</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="LATAM-GCCF2022--Oscar Nieto_1.png" class="certificado-img" alt="Certificado Google Cloud">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Alibaba -->
+    <div class="modal fade" id="certificadoAlibaba" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Alibaba Digital Transformation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="DTMXT001000106.png" class="certificado-img" alt="Certificado Alibaba">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0"><i class="bi bi-c-circle me-1"></i>2023 Oscar Nieto Pérez. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
