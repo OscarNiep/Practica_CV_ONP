@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    padding-top: 56px; /* Para compensar el navbar fijo */
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+    margin-top: 56px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Títulos de sección */
+.section-title {
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+/* Estilos para certificados */
+.certificado-img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+/* Carrusel de proyectos */
+.proyecto-carousel-img {
+    height: 500px;
+}
+
+.proyecto-carousel-img img {
+    height: 100%;
+    width: 360px;
+    object-fit: contain;
+}
+
+/* Efecto hover para tarjetas */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el formulario de contacto */
+.form-control {
+    border-radius: 0.25rem;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+}
